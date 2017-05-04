@@ -12,7 +12,7 @@ function parse(q) {
 			words: 0,
 			osis: 0,
 			book: 0,
-			// Not camel-cased because it's an output propery, so we want it consistent with output from `bcv_parser`.
+			// Not camel-cased because it's an output property, so we want it consistent with output from `bcv_parser`.
 			invalid_osis: 0
 		},
 		components: [],
