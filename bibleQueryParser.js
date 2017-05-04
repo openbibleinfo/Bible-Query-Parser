@@ -4,7 +4,7 @@ let bcv = resetParser()
 
 // The only exported function. It normalizes the string and returns an object with a recommended course of action.
 function parse(q) {
-	// The BCV parser expects normalized UTF-8. If the query contains anything besides ASCII or punctuation, make sure it's normalized. If your environment doesn't support `String.normalize`, try https://github.com/walling/unorm . Alternately, if you're only interested in ASCII text, you could probably delete this line.
+	// The BCV parser expects normalized UTF-8. If your environment doesn't support `String.normalize`, try https://github.com/walling/unorm . Alternately, if you're only interested in ASCII text, you could probably delete this line.
 	q = q.normalize("NFC")
 	const response = {
 		q,
