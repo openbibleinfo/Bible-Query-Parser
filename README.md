@@ -8,7 +8,7 @@ If you're building a Bible search engine, you can use this script to decide what
 
 ```javascript
 const parseQuery = require("./bibleQueryParser.js")
-const result = parseQuery("Phil 2")
+const result = parseQuery("Matthew 5-7: Sermon on the Mount")
 /*
 {
 	q: "Matthew 5-7: Sermon on the Mount",
